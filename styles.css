@@ -1,0 +1,66 @@
+/* Global Variables */
+:root {
+ --backgroundcl: rgb(123, 201, 236);
+}
+
+/* Global Styles */
+* {
+ box-sizing: border-box;
+ margin: 0;
+ background-color: var(--backgroundcl);
+ color: #fff;
+ font-family: "DM Sans", sans-serif
+}
+
+/* Element Styles */
+
+header {
+ margin-top: 5vh;
+}
+
+h1 {
+ font-size: 5rem;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+h3 {
+ font-size: 2.5rem;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+p {
+ font-size: 2rem;
+ text-align: center;
+}
+
+.quotecontainer {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.quote {
+ margin-top: 8vh;
+ margin-bottom: 5vh;
+}
+
+.btn {
+ padding: 2vh 3vh;
+ font-size: 1rem;
+ border-color: #fff;
+ border-radius: 0.3em;
+ box-shadow: none;
+ border-style: solid;
+ font-weight: bold;
+ transition: ease 0.3s;
+}
+
+.btn:hover {
+ background: #fff;
+ color: var(--backgroundcl);
+ cursor: pointer;
+}
+
+
