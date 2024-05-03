@@ -5,10 +5,15 @@ const getQuotes = async (url, container) => {
  try {
   const response = await fetch(url);
   const data = await response.json();
+
+  // Remove the loading animation
+  container.classList.remove('loading')
+
   // Data is an array of objects containing the quote and relevant information about the quote
 
   // Randomly generate a number
   const rando = randomNum();
+
   // Access the randomly generated number's index in the data array and get the quote from that array item
   const inspiration = data[rando].text;
   // Access the randomly generated number's index in the data array and get the quote's source from that array item
