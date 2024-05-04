@@ -65,6 +65,8 @@ p {
  border-style: solid;
  font-weight: bold;
  transition: ease 0.3s;
+ position: absolute;
+ margin-top: 20vh;
 }
 
 .btn:hover {
@@ -123,7 +125,12 @@ p {
  .btn {
   padding: 2vh 2.5vh;
   font-size: 1rem;
-  margin-top: 3vh;
+  margin-top: 30vh;
+ }
+
+ .quote {
+  width: 70vw;
+  align-items: center;
  }
 }
 
@@ -154,6 +161,6 @@ p {
   .btn {
    padding: 2vh 2.5vh;
    font-size: 1rem;
-   margin-top: 3vh;
+   margin-top: 20vh;
   }
 }
